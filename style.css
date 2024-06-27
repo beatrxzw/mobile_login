@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco: #FFFF;
+    --cinza: #474747;
+    --branco2: #F8F8F8;
+    --wine: #C92071;
+    --preto: #1F1F1F;
+}
+
+
+    .header {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.25rem;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #B5B6F2, #EFEFFF);
+
+    }
+
+    .header {
+        background-color: var(--branco);
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        margin-top: 0;
+    }
+
+    .container {
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    .c-box {
+        width: 80%;
+        height: 25rem;
+        background-color: var(--branco);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.8rem;
+        border-radius: 0.25rem;
+    }
+
+    .titles {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+    }
+
+    .subtitle {
+        font-size: 0.8rem;
+        color: var(--cinza);
+        font-weight: 400;
+    }
+
+    #sub-link {
+        color: var(--cinza);
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+
+    }
+
+    .inputs label {
+        width: 15rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--cinza);
+    }
+
+
+    .box-email {
+        width: 15rem;
+        height: 3.7rem;
+        border-radius: 8px;
+        background-color: var(--branco2);
+        border: none;
+        color: var(--cinza);
+        padding: 1rem 0.8rem;
+        letter-spacing: 0.75px;
+        outline: none;
+    }
+
+
+
+    button {
+        width: 15rem;
+        height: 3rem;
+        border: none;
+        background-color: var(--wine);
+        color: var(--branco);
+        font-weight: 600;
+        letter-spacing: 0.047rem;
+        border-radius: 8px;
+    }
+
+    .social-login {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .login {
+        font-weight: 600;
+    }
+
+    .icons {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    /* RODAPÉ */
+
+    .rodape {
+        width: 100%;
+        height: 100%;
+        background-color: var(--preto);
+    }
+
+    .r-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.2rem;
+        color: var(--branco);
+    }
+
+    .r-box {
+        margin-top: 3.1rem;
+        width: 82%;
+    }
+
+    .r-text {
+        color: var(--branco);
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.016rem;
+        margin-top: 1.3rem;
+    }
+
+    .r-logos {
+        display: flex;
+        margin-top: 1.8rem;
+        gap: 2.1rem;
+    }
+
+    .box2 {
+        display: flex;
+        margin-top: 2.5rem;
+        gap: 2rem;
+    }
+
+    .inf1 {
+        gap: 0.6rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inf1-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        list-style: none;
+    }
+
+    .links-lista {
+        line-height: 1.9rem;
+    }
+
+    .link {
+        list-style: none;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .inf2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .endereço {
+        margin-top: 0.6rem;
+        text-decoration: none;
+        color: var(--branco);
+        line-height: 1.9rem;
+
+    }
+
+    .numero {
+        margin-top: 1.5rem;
+    }
+
+    .c-line {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 2.5rem;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .line{
+        width: 85%;
+        height: 0.063rem;
+        background-color: var(--branco);
+    }
+
+    .credits{
+        font-size: 0.8rem;
+        color: var(--branco);
+        margin-bottom: 2.6rem;
+    }
+
